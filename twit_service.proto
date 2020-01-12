@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+
+
+package twit;
+
+// Interface exported by the server.
+service MsgService {
+    rpc EchoMessage(Msg) returns(Msg) {}
+}
+
+message Msg {
+    string messageBody = 1;
+}
