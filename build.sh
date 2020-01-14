@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-g
 source $(dirname $0)/scripts/routines.sh
 set -e
 
